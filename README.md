@@ -37,11 +37,36 @@ We utilize a pretrained NER tagging tool [elmo](https://allennlp.org/elmo) for e
 
 ## Data Usage
 
-Our processed textual relations is in `./mnre_txt/`, the image data can be downloaded [here](https://drive.google.com/file/d/1FYiJFtRayWY32nRH0rdycYzIdDcMmDFR/view?usp=sharing)
+Our processed textual relations is in `./mnre_txt/`, the image data can be downloaded [here](https://drive.google.com/file/d/1FYiJFtRayWY32nRH0rdycYzIdDcMmDFR/view?usp=sharing). 
+
+>Each sentence is split into several instances (depending on the number of relations).
+>Each line contains
+>```
+>'token': Texts preprossed by a tokenizer
+>'h': Head entities and their positions in a sentence
+>'t': Tail entities and their positions in a sentence
+>'image_id': You can find the corresponding images using the link above
+>'relation': The relations and entity categories
+>```
 
 ## Case Study
 
-<img src="">
+<img src="pic/case1.png" width="900">
+
+Four examples for illustrating the effectiveness of visual information in extracting relations. The first line shows that the visual objects and their attributes can help in identifying relations. Further more, we show that the interactions of person-to-person or person-to-object can also provide clues for classifying relations.
+
+
+## Citation
+If you find this repo helpful, please cite the following:
+```latex
+@inproceedings{zheng2021mnre,
+  title={MNRE: A Challenge Multimodal Dataset for Neural Relation Extraction with Visual Evidence in Social Media Posts},
+  author={Zheng, Changmeng and Wu, Zhiwei and Feng, Junhao and Fu, Ze and Cai, Yi},
+  booktitle={2021 IEEE International Conference on Multimedia and Expo (ICME)},
+  pages={1--6},
+  year={2021},
+  organization={IEEE}
+}
 
 
 
