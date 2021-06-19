@@ -4,7 +4,7 @@ Resource and Code for ICME 2021 paper [MNRE: A Challenge Multimodal Dataset for 
 ## Overview
 This project aims to present a new task -- multimodal neural relation extraction and a dataset (MNRE) for model evaluation. The MNRE task requires a understanding of both vision and language. We envisage a range of well-designed methods and resources for such a challenge that would boost the development of multimodal alignment towards a higher semantic level.
 
-<img src="pic/Intro.png" width="500">
+<img src="pic/Intro.png" width="400">
 
 This is an example of multimodal relation extraction in Twitter. There are three entities in this sentence: "JFK", "Obama" and "Harvard". The main task of relation extraction is to identify the relations of each entity pair. Previous works incorrectly classify the relations of "JFK" and "Harvard" as "Residence" and the "JFK" and "Obama" as "Spouse" due to the missing of contexts. However, we can know that "JFK" and "Harvard" are in the relation of "Graduated at" with the visual concepts "Bachelor cap" and "Gown". Still, the relations of "JFK" and "Obama" can be identified as "Alumni" with the guidance of all the visual objects about "Campus".
 
