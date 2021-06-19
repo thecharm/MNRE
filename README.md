@@ -35,7 +35,13 @@ We build the original corpus from three sources: two available multimodal named 
 
 We utilize a pretrained NER tagging tool [elmo](https://allennlp.org/elmo) for extracting both entities and their corresponding types.
 
+## Data Usage
 
+Our processed textual relations is in `./mnre_txt/`, the image data can be downloaded [here](https://drive.google.com/file/d/1FYiJFtRayWY32nRH0rdycYzIdDcMmDFR/view?usp=sharing)
+
+## Case Study
+
+<img src="">
 
 
 
