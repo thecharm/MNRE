@@ -67,7 +67,4 @@ If you find this repo helpful, please cite the following:
   year={2021},
   organization={IEEE}
 }
-
-
-
-
+```
