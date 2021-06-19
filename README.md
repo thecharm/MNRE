@@ -42,7 +42,7 @@ Our processed textual relations is in `./mnre_txt/`, the image data can be downl
 >Each sentence is split into several instances (depending on the number of relations).
 >Each line contains
 >```
->'token': Texts preprossed by a tokenizer
+>'token': Texts preprocessed by a tokenizer
 >'h': Head entities and their positions in a sentence
 >'t': Tail entities and their positions in a sentence
 >'image_id': You can find the corresponding images using the link above
