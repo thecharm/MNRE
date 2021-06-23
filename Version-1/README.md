@@ -6,4 +6,4 @@ There are 10081 samples of the dataset (8 samples were removed since they are ob
 
 We also provide the texts, images and the pretrained object features using [Mask RCNN](https://github.com/matterport/Mask_RCNN).
 
-The images can be downloaded [here]()
+The images can be downloaded [here](https://drive.google.com/file/d/1uq0Dr1RqZn-VVKe1UrG9b8xMeldYwkJs/view?usp=sharing)
