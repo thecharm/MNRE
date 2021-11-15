@@ -40,7 +40,7 @@ We utilize a pretrained NER tagging tool [elmo](https://allennlp.org/elmo) for e
 
 ## Data Usage
 
-Our processed textual relations is in `./mnre_txt/`, the image data can be downloaded [here](https://drive.google.com/file/d/1FYiJFtRayWY32nRH0rdycYzIdDcMmDFR/view?usp=sharing). 
+Our processed textual relations are in `./mnre_txt/`, the image data can be downloaded [here](https://drive.google.com/file/d/1FYiJFtRayWY32nRH0rdycYzIdDcMmDFR/view?usp=sharing). 
 
 >Each sentence is split into several instances (depending on the number of relations).
 >Each line contains
