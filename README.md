@@ -2,7 +2,7 @@
 Resource and Code for ICME 2021 paper [MNRE: A Challenge Multimodal Dataset for Neural Relation Extraction with Visual Evidence in Social Media Posts](https://ieeexplore.ieee.org/abstract/document/9428274)
 
 ## Recent Updates
-- [x] 2021.6.22 We provide MNRE-2, a refined version which merges several ambigious categories with much more support samples. The original version has moved to [Version-1](/Version-1/)
+- [x] 2021.6.22 We provide MNRE-2, a refined version which merges several ambigious categories with much more support samples. The original version has been moved to [Version-1](/Version-1/)
 
 ## Overview
 This project aims to present a new task -- multimodal neural relation extraction and a dataset (MNRE) for model evaluation. The MNRE task requires a understanding of both vision and language. We envisage a range of well-designed methods and resources for such a challenge that would boost the development of multimodal alignment towards a higher semantic level.
